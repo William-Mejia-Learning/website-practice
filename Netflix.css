@@ -1,0 +1,45 @@
+
+body{
+    background-color: rgba(20,20,20,1);
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation-top{
+    border: 1px none;
+    height: 8em;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 75%);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+
+
+
+}
+
+.list-item{
+    flex-grow: .25;
+
+}
+
+.list-item:nth-of-type(5){
+    flex-grow: 8;
+}
+
+.list-item:last-of-type{
+    margin-right: 0;
+}
+
+li{
+    margin: 1em;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+h2 {
+    color: rgb(229,229,229);
+}
